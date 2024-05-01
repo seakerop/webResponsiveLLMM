@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Suez+One&display=swap" rel="stylesheet');
+
+/* Todas las imágenes han sido creadas mediante Inteligencia artificial.
+ */
+
+.sectionIndex {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.asideIndex{
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    font-family: "Poiret One", sans-serif;
+
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav {
+    font-family: "Suez One", serif;
+}
+
+
+body {
+
+    background-image: url('img/Principal.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+.c4x4 {
+
+    background-image: url('img/4x4.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+.deportivo {
+
+    background-image: url('img/Descapotable2.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+.sedan {
+    background-image: url('img/Secundaria.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+header {
+    font-size: 35px;
+    padding: 20px;
+
+}
+
+.nav {
+    display: flex;
+    margin-right: 5em;
+    justify-content: space-between;
+}
+
+.nav li {
+    list-style: none;
+    margin: 5px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(42, 37, 37);
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid rgb(3, 3, 3);
+    padding: 2px;
+    transition: 1.5s;
+
+}
+
+.desplegable {
+
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    width: auto;
+}
+
+.nav li:hover .desplegable {
+    display: contents;
+
+}
+
+
+
+.principal {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.sectionIndex {
+    /*    background-color: aliceblue; */
+    width: 65%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asideIndex {
+    width: 35%;
+    padding: 50px;
+    margin-top: 25px;
+}
+.asideIndex p {
+    padding-top: 20px;
+}
+
+footer {
+    padding: 10px;
+}
+
+.copyright {
+    display: flex;
+    font-size: 0.75em;
+    width: 100;
+    justify-content: center;
+}
+
+.sectionIndex4x4 {
+    padding-top: 100px;
+    padding-right: 800px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asideIndex4x4 {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionIndexDeportivo {
+    padding-top: 100px;
+    padding-right: 800px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asideIndexDeportivo {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionIndexSedan {
+    padding-top: 100px;
+    padding-right: 800px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asideIndexSedan {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hdeportivo {
+    color: rgb(216, 216, 216);
+}
+
+.botoncontainer {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+.boton {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#seg {
+    background-image: url(img/FontoSegundamano.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+
+.principalseg h2 {
+
+
+    text-align: center;
+
+
+}
+
+.principalseg {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+.caja {
+
+    position: relative;
+    /*width: 100%;
+    height: 100%;*/
+    background-color: white;
+    color: black;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.9s ease;
+}
+
+.segundamano:hover .caja {
+    opacity: 0.8;
+}
+
+#coche1 {
+
+    height: 144px;
+    width: 234px;
+}
+
+#coche2 {
+
+    height: 144px;
+    width: 234px;
+}
+
+
+#coche3 {
+    height: 144px;
+    width: 234px;
+}
+
+
+#coche4 {
+    height: 144px;
+    width: 234px;
+}
+
+
+#coche5 {
+    height: 144px;
+    width: 234px;
+}
+
+
+
+#coche6 {
+    height: 144px;
+    width: 234px;
+}
+
+.venta {
+
+    height: 360px;
+    width: 585px;
+}
+
+.Formulario {
+    width: 500px; 
+    margin: 40px auto; 
+    padding: 20px; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-position: center;
+    backdrop-filter: blur(20px);
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+textarea,
+select {
+    width: calc(100% - 22px); 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 50px; 
+    box-sizing: border-box; 
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+    width: 50%; 
+    padding: 10px; 
+    margin: 10px auto; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3; 
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px; 
+}

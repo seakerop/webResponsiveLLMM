@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <style>
+
+input:invalid, textarea:invalid{
+
+background: rgb(218, 218, 218);
+}
+
+    </style>
+    <title>Document</title>
+</head>
+
+<body class="contacto">
+    <div class="contenedor">
+        <header>Shinsou Motors</header>
+        <ul class="nav">
+            <li>
+                <a href="index.html">Coches</a>
+                <ul class="desplegable">
+                    <li><a href="Sedan.html">Sedan</a></li>
+                    <li><a href="4x4.html">4x4</a></li>
+                    <li><a href="Deportivo.html">Deportivo</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="Quienes Somos.html">Quienes Somos</a>
+                <ul class="desplegable">
+                    <li><a href="Origenes.html">Origenes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="Tecnología.html">Tecnología</a>
+            </li>
+            <li>
+                <a href="https://www.clicars.com/">Segunda Mano</a>
+            </li>
+<!--             <li>
+                <a href="Contáctanos.html">Contáctanos</a>
+            </li> -->
+            <li>
+                <a href="https://maps.app.goo.gl/d3DsHDvagyAbTvRp8">Ubicación</a>
+            
+            </li>
+        </ul>
+        <div class="Formulario">
+            <form action="mailto:alt.to-3oi18k46@yopmail.com" method="post">
+                
+                    <h2>Contacto</h2>
+                   
+
+                    
+                        
+                        Nombre: <input type="text" name="nombre" id="nombre" placeholder="Indica tu nombre" required minlength="3" maxlength="15">
+                        <br>
+                        Apellidos: <input type="text" name="apellidos" id="apellidos" placeholder="Indica tu apellido"
+                            required required minlength="3" maxlength="15">
+                        <br>
+                        <br>Código Postal: <input type="text" name="codigo_postal" id="codigo_postal"
+                            placeholder="Código Postal" required minlength="5" maxlength="5">
+                        
+                        <br>DNI: <input type="text" name="dni" id="dni" placeholder="DNI"required minlength="9" maxlength="9">
+                        <br>Email: <input type="email" name="email" id="email" placeholder="Correo Electrónico"
+                            required required minlength="3" maxlength="25">
+                   
+                        <legend>Fecha de Expedicion de carnet de conducir</legend>
+                        <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+                    
+                        <legend> Modelo de coche</legend>
+                        <select name="Modelo" id="">
+                            <option value="1">Sedan</option>
+                            <option value="2">4X4</option>
+                            <option value="3">Deportivo</option>
+                        </select>
+                    <input type="checkbox" id="aceptacion" value="proteccionDatos">Acepto campartir mis Datos
+                    <div class="botones">
+                        <input type="reset">
+                        <br>
+                        <input type="submit">
+                    </div>
+
+                
+            </form>
+        </div>
+        <footer>
+            <div class="copyright">
+                <p>&copy; Trabajo Lenguaje de Marcas</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
